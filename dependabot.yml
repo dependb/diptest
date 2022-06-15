@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values package manager for the repository
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    ignore:
+      # Ignore updates to packages that start with 'aws'
+      # Wildcards match zero or more arbitrary characters
+      # - dependency-name: "aws*"
+
+      # Ignore some updates to the 'express' package
+      - dependency-name: "wadllib"
