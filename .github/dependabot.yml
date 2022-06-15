@@ -12,3 +12,4 @@ updates:
       # Ignore some updates to the 'express' package
       - dependency-name: "attrs"
       - dependency-name: "Automat"
+      - dependency-name: "dbus-python"
