@@ -10,4 +10,4 @@ updates:
       # - dependency-name: "aws*"
 
       # Ignore some updates to the 'express' package
-      - dependency-name: "wadllib"
+      - dependency-name: "attrs"
