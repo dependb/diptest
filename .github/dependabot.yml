@@ -13,3 +13,4 @@ updates:
       - dependency-name: "attrs"
       - dependency-name: "Automat"
       - dependency-name: "dbus-python"
+      - dependency-name: "certifi"
